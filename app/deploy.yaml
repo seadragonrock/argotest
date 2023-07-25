@@ -21,3 +21,5 @@ spec:
           image: hailong2010/nginx:v0.0.1
           ports:
             - containerPort: 80
+      imagePullSecrets:
+        - name: dockerconfigjson
